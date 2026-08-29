@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="100" viewBox="0 0 600 100" role="img" aria-label="QiuMo">
+  <style>
+    .ch { font: 600 48px Consolas, 'Courier New', monospace; fill: #58a6ff; }
+    .c0 { animation: c0 8s linear infinite; }
+    .c1 { animation: c1 8s linear infinite; }
+    .c2 { animation: c2 8s linear infinite; }
+    .c3 { animation: c3 8s linear infinite; }
+    .c4 { animation: c4 8s linear infinite; }
+    @keyframes c0 { 0%, 6.25% { opacity: 0; } 6.75%, 70% { opacity: 1; } 71.875%, 100% { opacity: 0; } }
+    @keyframes c1 { 0%, 10.625% { opacity: 0; } 11.125%, 68.125% { opacity: 1; } 70%, 100% { opacity: 0; } }
+    @keyframes c2 { 0%, 15% { opacity: 0; } 15.5%, 66.25% { opacity: 1; } 68.125%, 100% { opacity: 0; } }
+    @keyframes c3 { 0%, 19.375% { opacity: 0; } 19.875%, 64.375% { opacity: 1; } 66.25%, 100% { opacity: 0; } }
+    @keyframes c4 { 0%, 23.75% { opacity: 0; } 24.25%, 62.5% { opacity: 1; } 64.375%, 100% { opacity: 0; } }
+    .cursor { animation: cmv 8s linear infinite, blk 1s steps(1, end) infinite; }
+    @keyframes cmv {
+      0%, 6.25% { transform: translateX(222px); }
+      6.75%, 10.625% { transform: translateX(251px); }
+      11.125%, 15% { transform: translateX(280px); }
+      15.5%, 19.375% { transform: translateX(309px); }
+      19.875%, 23.75% { transform: translateX(338px); }
+      24.25%, 62.5% { transform: translateX(367px); }
+      64.375%, 66.25% { transform: translateX(338px); }
+      68.125%, 70% { transform: translateX(280px); }
+      71.875%, 100% { transform: translateX(222px); }
+    }
+    @keyframes blk { 0% { opacity: 1; } 50% { opacity: 0; } 100% { opacity: 1; } }
+  </style>
+  <text class="ch c0" x="222" y="64">Q</text>
+  <text class="ch c1" x="251" y="64">i</text>
+  <text class="ch c2" x="280" y="64">u</text>
+  <text class="ch c3" x="309" y="64">M</text>
+  <text class="ch c4" x="338" y="64">o</text>
+  <rect class="cursor" x="0" y="24" width="5" height="50" rx="1" fill="#58a6ff" />
+</svg>

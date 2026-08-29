@@ -1,7 +1,7 @@
 <div align="center">
 
-<!-- 打字机动画 -->
-<img src="https://readme-typing-svg.demolab.com?font=Noto+Sans+SC&weight=600&size=40&pause=1500&color=58A6FF&center=true&vCenter=true&width=600&height=60&lines=QiuMo" alt="QiuMo" />
+<!-- 打字机动画（自托管，无第三方依赖） -->
+<img src="assets/typing.svg" width="600" alt="QiuMo" />
 
 <!-- 徽章墙 -->
 <p>
